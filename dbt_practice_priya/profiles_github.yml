@@ -1,0 +1,11 @@
+dbt_practice_priya:
+  outputs:
+    dev:
+      catalog: dbt_tutorial_dev
+      host: dbc-ead71dc6-3cc1.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/46d148bf0f701d94
+      schema: source
+      threads: 1
+      token: 'dapiuseyourtoken'
+      type: databricks
+  target: dev
